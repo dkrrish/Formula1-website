@@ -1,0 +1,138 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text for readability */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.registration-form {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form h2 {
+    text-align: center;
+}
+
+/* ✅ NEW: Style the form to stack items vertically */
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Keep labels full-width for clarity */
+.registration-form label {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Keep inputs and button uniform */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form button[type="submit"] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Style the submit button */
+.registration-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.registration-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Error message styling */
+.error-message {
+    color: #f00;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

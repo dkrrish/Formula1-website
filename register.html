@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Website Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+     </header>
+    <main>
+        <section class="registration-form">
+            <h2>Register for an account</h2>
+            <form id="registration-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" pattern="^[a-zA-Z0-9_]{3,20}$" required>
+                <span class="error-message" id="username-error"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <span class="error-message" id="email-error"></span>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,32}$" required>
+                <span class="error-message" id="password-error"></span>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                <span class="error-message" id="confirm-password-error"></span>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 F1 Website</p>
+     </footer>
+    <script src="register.js"></script>
+</body>
+</html>

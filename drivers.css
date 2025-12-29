@@ -1,0 +1,157 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  color: #e10600;
+  text-align: center;
+  padding: 2em 1em 1em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+  margin-top: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+nav a:hover,
+nav a.active {
+  color: #e10600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1em;
+}
+
+.driver-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2em;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.driver-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.driver-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.2);
+}
+
+.driver-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-bottom: 2px solid #e10600;
+}
+
+.driver-card h2 {
+  margin: 0.8em 0 0.2em;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.driver-card p {
+  margin: 0 0 1em;
+  color: #ccc;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #111;
+  padding: 2em;
+  border-radius: 12px;
+  color: white;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  border: 3px solid #e10600;
+}
+
+.modal-content h2 {
+  color: #e10600;
+  margin-bottom: 0.5em;
+}
+
+.modal-content ul {
+  padding-left: 1.2em;
+  line-height: 1.6em;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  color: #e10600;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+  .driver-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .driver-list {
+    grid-template-columns: 1fr;
+  }
+}

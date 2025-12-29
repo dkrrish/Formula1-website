@@ -1,0 +1,87 @@
+/* Page setup */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center the login form vertically */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login form container */
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: none; /* No border, no shadow */
+}
+
+/* Heading */
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+#login-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#login-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button */
+#login-form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#login-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Error messages (if needed) */
+.error-message {
+    color: #ff4d4d;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Create account text */
+.login-form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Footer centered at bottom */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #aaa;
+}

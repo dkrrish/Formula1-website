@@ -1,0 +1,124 @@
+{
+  "conversational_prompts": [
+    {
+      "intent": "Greeting",
+      "user_input": ["Hi", "Hello", "Hey"],
+      "response": "Hey there! Ready to talk some F1? What's on your mind? 🏎️"
+    },
+    {
+      "intent": "Farewell",
+      "user_input": ["Bye", "See you", "Goodbye"],
+      "response": "Catch you later! Stay speedy! 🏁"
+    },
+    {
+      "intent": "Thanks",
+      "user_input": ["Thank you", "Thanks"],
+      "response": "No problem, happy to help with all things F1! 😎"
+    },
+    {
+      "intent": "Clarification",
+      "user_input": ["What?", "I don’t understand"],
+      "response": "Could you repeat that? Maybe something about F1 drivers or races?"
+    },
+    {
+      "intent": "General Inquiry",
+      "user_input": ["Tell me something", "What’s up"],
+      "response": "Want to dive into F1? Ask me about drivers, teams, or the latest Grand Prix! 🏎️"
+    },
+    {
+      "intent": "Positive Feedback",
+      "user_input": ["Awesome", "Great job"],
+      "response": "Glad you think so! Let’s keep the F1 vibes going! 🚗💨"
+    },
+    {
+      "intent": "Negative Feedback",
+      "user_input": ["This sucks", "Not helpful"],
+      "response": "Sorry to hear that! Let me know what F1 topic you want to explore, and I’ll nail it."
+    }
+  ],
+  "f1_data": {
+    "drivers": [
+      {
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "nationality": "Dutch",
+        "championships": 3,
+        "bio": "Max Verstappen, born September 30, 1997, is a Dutch racing driver and three-time F1 World Champion (2021, 2022, 2023)."
+      },
+      {
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "nationality": "British",
+        "championships": 7,
+        "bio": "Lewis Hamilton, born January 7, 1985, is a British driver tied for the most F1 World Championships (2008, 2014, 2015, 2017, 2018, 2019, 2020)."
+      },
+      {
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "nationality": "Australian",
+        "championships": 0,
+        "bio": "Oscar Piastri, born November 13, 1999, is a British driver known for his competitive performances with McLaren."
+      }
+    ],
+    "teams": [
+      {
+        "name": "Red Bull Racing",
+        "base": "Milton Keynes, UK",
+        "championships": 6,
+        "drivers": ["Max Verstappen", "Sergio Perez"]
+      },
+      {
+        "name": "Mercedes",
+        "base": "Brackley, UK",
+        "championships": 8,
+        "drivers": ["Lewis Hamilton", "George Russell"]
+      },
+      {
+        "name": "McLaren",
+        "base": "Woking, UK",
+        "championships": 8,
+        "drivers": ["Lando Norris", "Oscar Piastri"]
+      }
+    ],
+    "races": [
+      {
+        "name": "Monaco Grand Prix",
+        "location": "Monte Carlo, Monaco",
+        "circuit": "Circuit de Monaco",
+        "length_km": 3.337,
+        "laps": 78
+      },
+      {
+        "name": "British Grand Prix",
+        "location": "Silverstone, UK",
+        "circuit": "Silverstone Circuit",
+        "length_km": 5.891,
+        "laps": 52
+      },
+      {
+        "name": "Italian Grand Prix",
+        "location": "Monza, Italy",
+        "circuit": "Autodromo Nazionale Monza",
+        "length_km": 5.793,
+        "laps": 53
+      }
+    ],
+    "history": [
+      {
+        "year": 1950,
+        "event": "First F1 World Championship",
+        "description": "The inaugural F1 World Championship was held, with Giuseppe Farina winning the drivers' title."
+      },
+      {
+        "year": 1994,
+        "event": "Death of Ayrton Senna",
+        "description": "Ayrton Senna, one of F1's greatest drivers, tragically died during the San Marino Grand Prix."
+      },
+      {
+        "year": 2021,
+        "event": "Verstappen vs. Hamilton Rivalry",
+        "description": "Max Verstappen won his first championship in a dramatic season finale against Lewis Hamilton."
+      }
+    ]
+  }
+}

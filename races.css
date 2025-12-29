@@ -1,0 +1,77 @@
+/* General body setup */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for content */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Section heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+/* Individual race card styling */
+.race-card {
+    background-color: #1a1a1a;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.race-card:hover {
+    transform: scale(1.03);
+}
+
+/* Race card headings */
+.race-card h3 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Text inside race cards */
+.race-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Results section styling */
+.race-card .results {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+/* Highlight winner */
+.race-card .results p.winner {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #aaaaaa;
+    margin-top: 50px;
+    border-top: 1px solid #333333;
+    font-size: 14px;
+}

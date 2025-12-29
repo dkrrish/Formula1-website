@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Website Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main>
+        <section class="login-form">
+            <h2>Login to your account</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" pattern="^[a-zA-Z0-9_]{3,20}$" required>
+                <span class="error-message" id="username-error"></span>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,32}$" required>
+                <span class="error-message" id="password-error"></span>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p>Don't have an account? <a href="register.html">Create a new account</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 F1 Website</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+[
+  {
+    "round": 1,
+    "raceName": "Australian Grand Prix",
+    "date": "2025-03-14 - 2025-03-16",
+    "circuit": "Albert Park Circuit",
+    "country": "Australia",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Lando Norris", "team": "McLaren", "time": "1:42:06.304"},
+      "second": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "+0.895"},
+      "third": {"driver": "George Russell", "team": "Mercedes", "time": "+8.481"}
+    }
+  },
+  {
+    "round": 2,
+    "raceName": "Chinese Grand Prix",
+    "date": "2025-03-21 - 2025-03-23",
+    "circuit": "Shanghai International Circuit",
+    "country": "China",
+    "isSprint": true,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:30:55.026"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+9.748"},
+      "third": {"driver": "George Russell", "team": "Mercedes", "time": "+11.097"}
+    }
+  },
+  {
+    "round": 3,
+    "raceName": "Japanese Grand Prix",
+    "date": "2025-04-04 - 2025-04-06",
+    "circuit": "Suzuka International Racing Course",
+    "country": "Japan",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "1:22:06.983"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+1.423"},
+      "third": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+2.129"}
+    }
+  },
+  {
+    "round": 4,
+    "raceName": "Bahrain Grand Prix",
+    "date": "2025-04-11 - 2025-04-13",
+    "circuit": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:35:39.435"},
+      "second": {"driver": "George Russell", "team": "Mercedes", "time": "+15.499"},
+      "third": {"driver": "Lando Norris", "team": "McLaren", "time": "+16.273"}
+    }
+  },
+  {
+    "round": 5,
+    "raceName": "Saudi Arabian Grand Prix",
+    "date": "2025-04-18 - 2025-04-20",
+    "circuit": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:21:06.758"},
+      "second": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "+2.843"},
+      "third": {"driver": "Charles Leclerc", "team": "Ferrari", "time": "+8.104"}
+    }
+  },
+  {
+    "round": 6,
+    "raceName": "Miami Grand Prix",
+    "date": "2025-05-02 - 2025-05-04",
+    "circuit": "Miami International Autodrome",
+    "country": "United States",
+    "isSprint": true,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:28:51.587"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+4.630"},
+      "third": {"driver": "George Russell", "team": "Mercedes", "time": "+37.644"}
+    }
+  },
+  {
+    "round": 7,
+    "raceName": "Emilia Romagna Grand Prix",
+    "date": "2025-05-16 - 2025-05-18",
+    "circuit": "Autodromo Enzo e Dino Ferrari",
+    "country": "Italy",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "1:31:33.199"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+6.109"},
+      "third": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+12.956"}
+    }
+  },
+  {
+    "round": 8,
+    "raceName": "Monaco Grand Prix",
+    "date": "2025-05-23 - 2025-05-25",
+    "circuit": "Circuit de Monaco",
+    "country": "Monaco",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Lando Norris", "team": "McLaren", "time": "1:40:33.843"},
+      "second": {"driver": "Charles Leclerc", "team": "Ferrari", "time": "+3.131"},
+      "third": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+3.658"}
+    }
+  },
+  {
+    "round": 9,
+    "raceName": "Spanish Grand Prix",
+    "date": "2025-05-30 - 2025-06-01",
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:32:57.375"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+2.471"},
+      "third": {"driver": "Charles Leclerc", "team": "Ferrari", "time": "+10.455"}
+    }
+  },
+  {
+    "round": 10,
+    "raceName": "Canadian Grand Prix",
+    "date": "2025-06-13 - 2025-06-15",
+    "circuit": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "George Russell", "team": "Mercedes", "time": "1:31:52.688"},
+      "second": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "+0.228"},
+      "third": {"driver": "Kimi Antonelli", "team": "Mercedes", "time": "+1.014"}
+    }
+  },
+  {
+    "round": 11,
+    "raceName": "Austrian Grand Prix",
+    "date": "2025-06-27 - 2025-06-29",
+    "circuit": "Red Bull Ring",
+    "country": "Austria",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Lando Norris", "team": "McLaren", "time": "1:23:47.693"},
+      "second": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+2.695"},
+      "third": {"driver": "Charles Leclerc", "team": "Ferrari", "time": "+19.820"}
+    }
+  },
+  {
+    "round": 12,
+    "raceName": "British Grand Prix",
+    "date": "2025-07-04 - 2025-07-06",
+    "circuit": "Silverstone Circuit",
+    "country": "United Kingdom",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Lando Norris", "team": "McLaren", "time": "1:37:15.735"},
+      "second": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+6.812"},
+      "third": {"driver": "Nico Hulkenberg", "team": "Sauber", "time": "+34.742"}
+    }
+  },
+  {
+    "round": 13,
+    "raceName": "Belgian Grand Prix",
+    "date": "2025-07-25 - 2025-07-27",
+    "circuit": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "isSprint": true,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:25:22.601"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+3.415"},
+      "third": {"driver": "Charles Leclerc", "team": "Ferrari", "time": "+20.185"}
+    }
+  },
+  {
+    "round": 14,
+    "raceName": "Hungarian Grand Prix",
+    "date": "2025-08-01 - 2025-08-03",
+    "circuit": "Hungaroring",
+    "country": "Hungary",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Lando Norris", "team": "McLaren", "time": "1:35:21.231"},
+      "second": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+0.698"},
+      "third": {"driver": "George Russell", "team": "Mercedes", "time": "+21.916"}
+    }
+  },
+  {
+    "round": 15,
+    "raceName": "Dutch Grand Prix",
+    "date": "2025-08-29 - 2025-08-31",
+    "circuit": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Oscar Piastri", "team": "McLaren", "time": "1:38:29.849"},
+      "second": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "+1.271"},
+      "third": {"driver": "Isack Hadjar", "team": "Racing Bulls", "time": "+3.233"}
+    }
+  },
+  {
+    "round": 16,
+    "raceName": "Italian Grand Prix",
+    "date": "2025-09-05 - 2025-09-07",
+    "circuit": "Autodromo Nazionale Monza",
+    "country": "Italy",
+    "isSprint": false,
+    "results": {
+      "winner": {"driver": "Max Verstappen", "team": "Red Bull Racing", "time": "1:13:24.325"},
+      "second": {"driver": "Lando Norris", "team": "McLaren", "time": "+19.207"},
+      "third": {"driver": "Oscar Piastri", "team": "McLaren", "time": "+21.351"}
+    }
+  },
+  {
+    "round": 17,
+    "raceName": "Azerbaijan Grand Prix",
+    "date": "2025-09-19 - 2025-09-21",
+    "circuit": "Baku City Circuit",
+    "country": "Azerbaijan",
+    "isSprint": false,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 18,
+    "raceName": "Singapore Grand Prix",
+    "date": "2025-10-03 - 2025-10-05",
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "isSprint": false,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 19,
+    "raceName": "United States Grand Prix",
+    "date": "2025-10-17 - 2025-10-19",
+    "circuit": "Circuit of The Americas",
+    "country": "United States",
+    "isSprint": true,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 20,
+    "raceName": "Mexico City Grand Prix",
+    "date": "2025-10-24 - 2025-10-26",
+    "circuit": "Autodromo Hermanos Rodriguez",
+    "country": "Mexico",
+    "isSprint": false,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 21,
+    "raceName": "São Paulo Grand Prix",
+    "date": "2025-11-07 - 2025-11-09",
+    "circuit": "Autodromo José Carlos Pace",
+    "country": "Brazil",
+    "isSprint": true,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 22,
+    "raceName": "Las Vegas Grand Prix",
+    "date": "2025-11-20 - 2025-11-22",
+    "circuit": "Las Vegas Street Circuit",
+    "country": "United States",
+    "isSprint": false,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 23,
+    "raceName": "Qatar Grand Prix",
+    "date": "2025-11-28 - 2025-11-30",
+    "circuit": "Lusail International Circuit",
+    "country": "Qatar",
+    "isSprint": true,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  },
+  {
+    "round": 24,
+    "raceName": "Abu Dhabi Grand Prix",
+    "date": "2025-12-05 - 2025-12-07",
+    "circuit": "Yas Marina Circuit",
+    "country": "United Arab Emirates",
+    "isSprint": false,
+    "results": {
+      "winner": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "second": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      },
+      "third": {
+        "driver": "TBD",
+        "team": "TBD",
+        "time": "TBD"
+      }
+    }
+  }
+]

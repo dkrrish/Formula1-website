@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>F1 - World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="image/logof1.png" />
+  <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="ui-theme.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0e0e0e;
+      color: white;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: rgba(0, 0, 0, 0.95);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 2em;
+    }
+
+    .logo img {
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .logo img:hover {
+      transform: scale(0.9);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5em;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+      padding-bottom: 4px;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+      background: #e10600;
+      transition: width 0.3s;
+    }
+
+    nav a:hover::after,
+    nav a.active::after {
+      width: 100%;
+    }
+
+    .hero {
+      background: url("image/2025all.webp") no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 2em;
+      border-radius: 12px;
+    }
+
+    .hero-content h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #fff;
+    }
+
+    .hero-content p {
+      margin: 1em 0;
+      font-size: 1.2em;
+    }
+
+    .btn {
+      background-color: #e10600;
+      color: white;
+      padding: 0.8em 1.6em;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #b60000;
+    }
+
+    .section {
+      padding: 4em 2em;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 1.5em;
+      color: #e10600;
+    }
+
+    .section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .about-imgs {
+      margin-top: 2em;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5em;
+      padding: 1em;
+    }
+
+   .about-imgs img {
+  width: 100%;
+  height: 400px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+
+    .about-imgs img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      background: #111;
+      padding: 2em;
+      text-align: center;
+      color: white;
+    }
+
+    .footer__icons a {
+      margin: 0 0.5em;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    .footer__text {
+      margin-top: 1em;
+      font-size: 0.9em;
+    }
+
+    .footer__link {
+      color: #e10600;
+    }
+
+    @media (max-width: 600px) {
+      .hero-content h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <a href="image/intro1.mp4" class="logo"><img src="image/logof1.png" alt="Logo"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="leaderboard.html">Leaderboard</a></li>
+        <li><a href="races.html">Races</a></li>
+        <li><a href="drivers.html">Drivers</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Formula_One_circuits#History">Tracks</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Adapt to <span style="color:#e10600;">the Best</span></h1>
+      <p>Explore Formula 1 Teams Merchandise</p>
+      <a href="shop.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>About Formula 1</h2>
+    <p>Formula 1 is the highest class of motor racing in the world. Organizing an international series of races across continents, it features the most talented drivers and innovative automotive engineering. Formula 1 is known for exhilarating speed, cutting-edge technology, and thrilling competition that captivates millions of fans globally.</p>
+
+    <div class="about-imgs">
+      <img src="image/photo6.jpg" alt="F1 car">
+      <img src="image/photo11.jpg" alt="Mercedes F1 2022">
+      <img src="image/photo12.jpg" alt="Formula Racing">
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer__icons">
+      <a href="https://www.facebook.com/Formula1/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/f1/"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/F1"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="footer__text">All rights reserved &copy; 2024 F1 Website | <a href="priv.html" class="footer__link">Privacy Policy</a></p>
+  </footer>
+
+  <!-- Chatbot and Cookie -->
+  <div id="cookie-popup" class="cookie-popup">
+    <div class="cookie-popup-content">
+      <h2 style="color: #0e0e0e;">YOUR CHOICES REGARDING COOKIES</h2>
+      <p style="color: #0e0e0e;">We and our partners use cookies and similar tech for analytics, personalized content, and marketing. Accept to proceed.</p>
+      <button id="accept-cookies">Accept</button>
+      <button id="reject-cookies">Reject</button>
+    </div>
+  </div>
+<!-- CHATBOT TOGGLE BUTTON -->
+<div id="chatbot-toggle" onclick="toggleChatbot()">💬</div>
+
+<!-- CHATBOT WINDOW -->
+<div id="chatbot-box">
+  <div class="chatbot-header">
+    <span>F1 ChatBot</span>
+    <button onclick="toggleChatbot()">✖</button>
+  </div>
+  <div id="chatlog"></div>
+  <div class="chatbot-input">
+    <input id="user-msg" placeholder="Ask me about F1..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>

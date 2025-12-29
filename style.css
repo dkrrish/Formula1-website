@@ -1,0 +1,121 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none; 
+    z-index: 1000; 
+}
+
+.cookie-popup-content {
+    text-align: center;
+}
+
+.cookie-popup button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cookie-popup button:hover {
+    background-color: #f55;
+    color: #fff;
+}
+#chatbot-toggle {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #e10600;
+  color: white;
+  font-size: 20px;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+#chatbot-toggle:hover {
+  transform: scale(1.1);
+}
+
+#chatbot-box {
+  display: none;
+  position: fixed;
+  bottom: 90px;
+  right: 25px;
+  width: 330px;
+  background: #111;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  z-index: 9999;
+  flex-direction: column;
+}
+
+.chatbot-header {
+  background: #e10600;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#chatlog {
+  height: 240px;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+  background-color: #1a1a1a;
+}
+
+#chatlog p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.chatbot-input {
+  display: flex;
+  padding: 10px;
+  background-color: #1a1a1a;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.chatbot-input button {
+  margin-left: 8px;
+  background-color: #e10600;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
