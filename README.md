@@ -99,6 +99,10 @@ It provides an engaging platform for F1 fans to explore drivers, teams, merchand
    ```bash
    git clone https://github.com/YOUR_USERNAME/f1-interactive-website.git
 
+⚠️ **Security Note:**  
+API keys and sensitive credentials are intentionally removed from this public repository.  
+To run the AI chatbot locally, insert your own API key in the designated configuration file.
+
 
 👨‍💻 Developed By
 
